@@ -195,12 +195,7 @@ streamlit run app/streamlit_app.py
 3. Wait for build to finish.  
    The app uses prebuilt artifacts in `models/`, enabling instant use.
 
----
 
-## Project Status
-
-Phases 1–4 are complete and archived.  
-See the final summary: [`docs/FinalReport.md`](docs/FinalReport.md).
 
 ---
 
