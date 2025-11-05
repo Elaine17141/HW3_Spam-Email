@@ -1,9 +1,7 @@
 # Spam Email Classifier (AIoT-DA2025 HW3)
 
-[Open in Streamlit](https://hw3spam-email-8iqzxwggjhjpygnadkppnv.streamlit.app/)  
-*(Replace with your deployed Streamlit Cloud URL after deployment)*
 
-A simple, reproducible pipeline to classify messages/emails as spam or ham using scikit-learn and OpenSpec. This project emphasizes extensible preprocessing, experimentation, and visualization, inspired by Chapter 3 of the Packt repository: [Hands-On-Artificial-Intelligence-for-Cybersecurity](https://github.com/PacktPublishing/Hands-On-Artificial-Intelligence-for-Cybersecurity.git).
+A simple, reproducible pipeline to classify messages/emails as spam or ham using scikit-learn and OpenSpec. This project emphasizes extensible preprocessing, experimentation, and visualization.
 
 ---
 
