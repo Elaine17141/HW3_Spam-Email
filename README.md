@@ -19,10 +19,6 @@ A simple, reproducible pipeline to classify messages/emails as spam or ham using
 - Adjustable classification threshold  
 - Full evaluation metrics: accuracy, precision, recall, F1 score  
 
-## Preprocessing and Change Proposals
-
-- Preprocessing report: [`docs/PREPROCESSING.md`](docs/PREPROCESSING.md)
-- OpenSpec change proposal: [`openspec/changes/add-spam-email-classifier/`](openspec/changes/add-spam-email-classifier/)
 
 ## Demo Site
 
