@@ -5,6 +5,20 @@ A simple, reproducible pipeline to classify messages/emails as spam or ham using
 
 ---
 
+## Key Features
+
+- Text preprocessing and cleaning (handles URLs, emails, phone numbers, etc.)  
+- TF-IDF feature extraction  
+- Logistic regression classification  
+- Interactive Streamlit dashboard:  
+  - Dataset and column pickers  
+  - Class distribution visualization and top tokens per class  
+  - Confusion matrix, ROC, and PR curves  
+  - Threshold slider for live precision/recall/F1 adjustment  
+  - **Live inference:** type a message to see predicted label and spam probability  
+- Adjustable classification threshold  
+- Full evaluation metrics: accuracy, precision, recall, F1 score  
+
 ## Preprocessing and Change Proposals
 
 - Preprocessing report: [`docs/PREPROCESSING.md`](docs/PREPROCESSING.md)
@@ -25,6 +39,21 @@ pip install -r requirements.txt
 ```
 
 ---
+
+## Project Structure
+```bash
+├── app/ # Streamlit application
+│ └── streamlit_app.py # Interactive dashboard
+├── datasets/ # Datasets
+│ ├── processed/ # Preprocessed data
+│ └── sms_spam_no_header.csv # Raw dataset
+├── ml/ # Machine learning scripts
+├── models/ # Trained model artifacts
+├── reports/ # Training reports and visualizations
+│ └── visualizations/ # Visualization charts
+└── scripts/ # Training and evaluation scripts
+```
+
 
 ## Data
 
